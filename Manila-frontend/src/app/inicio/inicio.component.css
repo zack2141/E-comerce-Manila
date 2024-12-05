@@ -1,0 +1,100 @@
+
+/* estandar secciones*/
+section{
+    height: 60vh;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 2% 1.1% 0% 1.1%;
+}
+
+/* diseñi seccion bienvenida*/
+#cupcakes{
+    border-radius: 50%;
+    height: 60vh;
+    z-index: 1;
+    margin-left: 7%;
+}
+.circulo{
+    border-radius: 50%;
+}
+
+.circulo.c1{
+    z-index: 1;
+    position: absolute;
+    margin-left: 5%;
+    background-color: orange;
+    width: 20vh;
+    height: 20vh;
+}
+.circulo.c2{
+    z-index: -1;
+    position:absolute;
+    background-color: antiquewhite;
+    margin-left: 10%;
+    height: 60vh !important;
+    width: 60vh !important;
+    transition: 1.5s ease;
+}
+
+.circulo.c3{
+    z-index: -2;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10% ;
+    background-color: rgb(130, 141, 159);
+    height: 40vh !important;
+    width: 40vh !important;
+}
+
+#titulo{
+    
+    width: 0;
+    height: 0;
+    border-left: 50vh solid transparent;/*inclinacion del contenedor*/
+    border-right: 70vh solid  rgb(243, 230, 213) ; /* establece la ancho*/
+    border-bottom: 60vh solid rgb(243, 230, 213);/* establece la altura*/
+    float: right;
+    transform: scaleY(-1);
+    
+}
+
+/* estilo secciones*/
+
+#cont{
+    width: 100%;
+}
+
+.circulo.c4{
+    z-index: 0;
+    position: absolute;
+    background-color: orange;
+    width: 20vh;
+    height: 20vh;
+}
+
+.circulo.c5{
+    position: absolute;
+    margin-left: 90% ;
+    background-color: orange;
+    width: 20vh;
+    height: 20vh;
+}
+
+#productos{
+    background-color: #f3e6d5 ;
+    border-radius: 40px;
+    text-align: center;
+    overflow: auto;
+}
+
+/*seccion de nosotros*/
+
+#nosotros{
+    background-color: aqua;
+    text-align: center;
+    overflow: hidden;
+}
+
+#texto{
+    width: 60%;
+    margin: auto;
+}
