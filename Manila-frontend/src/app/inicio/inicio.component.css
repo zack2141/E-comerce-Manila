@@ -13,6 +13,7 @@ section{
     z-index: 1;
     margin-left: 7%;
 }
+
 .circulo{
     border-radius: 50%;
 }
@@ -88,8 +89,57 @@ section{
 
 /*seccion de nosotros*/
 
+.circulo.c6{
+    width: 7.4vh;
+    height: 7.4vh;
+    margin: 2% 0% 0% 4%;
+    background-color: rgb(248, 225, 182);
+    position: absolute;
+    z-index: 1;
+}
+.circulo.c7{
+    width: 18.2vh;
+    height: 18.2vh;
+    margin: 15% 0% 0% 75%;
+    background-color: rgb(75, 79, 116);
+    position: absolute;
+    z-index: 1;
+}
+.circulo.c8{
+    width: 18.2vh;
+    height: 18.2vh;
+    margin: 4% 0% 0% 85%;
+    background-color: rgb(75, 59, 32);
+    position: absolute;
+    z-index: 1;
+}
+.circulo.c9{
+    width: 7.4vh;
+    height: 7.4vh;
+    margin: 4% 0% 0% 12%;
+    background-color: rgb(151, 184, 255);
+    position: absolute;
+    z-index: 5;
+}
+.circulo.c10{
+    width: 31.9vh;
+    height: 31.9vh;
+    margin: 15% 0% 0% 12%;
+    background-color: rgb(255, 237, 155);
+    position: absolute;
+    z-index: 3;
+}
+.circulo.c11{
+    width: 36.4vh;
+    height: 36.4vh;
+    margin: 10% 0% 0% 0%;
+    background-color: rgb(255, 201, 101);
+    position: absolute;
+    z-index: 4;
+}
+
 #nosotros{
-    background-color: aqua;
+    background: linear-gradient(30deg, transparent,#f9f5d36e,transparent, transparent);
     text-align: center;
     overflow: hidden;
 }
@@ -97,4 +147,5 @@ section{
 #texto{
     width: 60%;
     margin: auto;
+    margin-top: 7% !important;
 }
