@@ -1,0 +1,54 @@
+#main-productos{
+
+    margin: 1%;
+    min-height: 90vh;
+    
+
+}
+
+/*aside filtros*/
+
+#filtros{
+    height: 90vh;
+    width: 25%;
+    background-color: rgb(243, 230, 213);
+    float: left;
+    border-radius: 45px;
+    padding: 2%;
+}
+
+#check-boxes{
+    font-size: 1.1rem;
+    column-count:2; /*definir el numero de columnas*/
+    margin:3% 0% 0% 0%;
+
+}
+
+#boton-filtros{
+    margin-top: 10%;
+}
+
+/*navegador de los productos*/
+#nav-productos{
+
+    height: 10vh;
+    width: 74%;
+    margin-left: 1%;
+    float: right;
+    background-color: rgb(243, 230, 213);
+    border-radius: 45px;
+
+}
+
+#carta-productos{
+    width: 74%;
+    height: 79vh;
+    margin-left: 1%;
+    float: right;
+    background-color: rgba(227, 225, 217, 0.36);
+    border-radius: 50px;
+    margin-top: 1vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}

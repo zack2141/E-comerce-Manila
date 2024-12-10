@@ -6,7 +6,7 @@ import { NavegadorComponent } from './navegador/navegador.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, InicioComponent, NavegadorComponent ],
+  imports: [InicioComponent, NavegadorComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

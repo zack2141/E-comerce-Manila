@@ -6,7 +6,7 @@ section{
     margin: 2% 1.1% 0% 1.1%;
 }
 
-/* diseñi seccion bienvenida*/
+/* diseño seccion bienvenida*/
 #cupcakes{
     border-radius: 50%;
     height: 60vh;
@@ -64,20 +64,8 @@ section{
     width: 100%;
 }
 
-.circulo.c4{
-    z-index: 0;
-    position: absolute;
-    background-color: orange;
-    width: 20vh;
-    height: 20vh;
-}
-
-.circulo.c5{
-    position: absolute;
-    margin-left: 90% ;
-    background-color: orange;
-    width: 20vh;
-    height: 20vh;
+#titulo1{
+    width: 100%;
 }
 
 #productos{
@@ -85,6 +73,22 @@ section{
     border-radius: 40px;
     text-align: center;
     overflow: auto;
+    padding-top: 2%;
+}
+
+#visor{
+    display: flex;
+    background-color: azure;
+    margin-left: 7%;
+    width: 86%;
+    height: 40vh;
+    justify-content: center;
+}
+
+/*cartas de bootrap*/
+
+.card{
+    margin-left: 1%;
 }
 
 /*seccion de nosotros*/
