@@ -1,7 +1,7 @@
 
 /* estandar secciones*/
 section{
-    height: 60vh;
+    min-height: 60vh;
     /* Arriba | Derecha | Abajo | Izquierda */
     margin: 2% 1.1% 0% 1.1%;
 }
@@ -70,6 +70,7 @@ section{
 
 #productos{
     background-color: #f3e6d5 ;
+    max-height: 90vh;
     border-radius: 40px;
     text-align: center;
     overflow: auto;
@@ -80,7 +81,7 @@ section{
     display: flex;
     margin-left: 7%;
     width: 86%;
-    height: 40vh;
+    max-height: 80vh;
     justify-content: center;
 }
 
@@ -88,15 +89,24 @@ section{
 /*cartas de bootrap*/
 
 .card{
+    width: 20% !important;
+    min-height: 40vh;
+    max-height: 80vh;
     margin-left: 1%;
+    margin-bottom: 3%;
+    transition: 1s;
+    cursor: pointer;
+    z-index: 1;
 
 
 }
 
+.card:hover{
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+
 .card-inicio{
-    position: absolute;
-    bottom: -17%;
-    left:27%;
     margin: 0% 0% 30% 0%;
 }
 
@@ -157,6 +167,12 @@ section{
     z-index: 4;
 }
 
+.ani{
+
+    animation: float 3s ease-in-out infinite;
+}
+
+
 #nosotros{
     background: linear-gradient(30deg, transparent,#f9f5d36e,transparent, transparent);
     text-align: center;
@@ -166,5 +182,104 @@ section{
 #texto{
     width: 60%;
     margin: auto;
-    margin-top: 7% !important;
+    margin-top: 4.5% !important;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(2vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+/*seccion de ubicanos*/
+
+#ubicados{
+    padding-top: 3%;
+}
+
+#pastel{
+  width: 30%;
+  height: auto;
+  margin-left: 3%;
+  animation-duration: 1s ;
+  animation-name: slide;
+  /*lo que permite realizar la animacion al hacer scroll*/
+  view-timeline-name: --imagen;
+  view-timeline-axis: block;
+  animation-timeline: --imagen;
+}
+
+.cont-cereza{
+    display:flex ;
+    padding-left: 20%;
+    width: 100%;
+    z-index: 1;
+}
+
+.cereza{
+
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: rgb(212, 55, 55);
+    z-index: 1;
+
+}
+
+.crema-adorno{
+    border-top: 3vh dotted rgb(212, 164, 100);
+    height: 3vh;
+    width: 29.4%;
+    margin-top: 5.5vh;
+    z-index: 2;
+    position: absolute;
+}
+
+.crema{
+    height: 3vh;
+    width: 29.4%;
+    background-color: antiquewhite;
+    z-index: 3;
+    position: absolute;
+    margin-top: 7vh;
+
+}
+
+.ponque{
+    background-color: rgb(247, 183, 63);
+    height: 30vh;
+    display: grid;
+    padding-top: 3% ;
+    padding-left: 6%;
+
+    border-left: 2vh solid  antiquewhite;
+}
+
+.vainilla{
+    background-color: antiquewhite;
+    height: 6vh;
+}
+
+@keyframes slide{ 
+    
+  from{
+    margin-left: -30%;
+    width: 30%;
+  }
+
+  to {
+    margin-left: 15%;
+    width: 30%;
+  }
+
 }
