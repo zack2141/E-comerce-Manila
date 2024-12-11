@@ -1,8 +1,8 @@
 .navbar.navbar-expand-lg.bg-body-tertiary{
     background-color: rgb(243, 230, 213)  !important;
-    margin: 1%;
     border-radius: 7px;
     font-size: 1.2rem;
+    margin-bottom: 1% ;
 
 }
 
