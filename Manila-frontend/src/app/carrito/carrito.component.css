@@ -1,0 +1,40 @@
+main{
+    display: flex;
+}
+#articulos{
+    width: 69%;
+    margin-right: 1%;
+    height: 80vh;
+    overflow-y: scroll;
+    transform: scaleX(-1);
+}
+#articulos::-webkit-scrollbar{
+
+    width: 10px;
+    border-radius: 4px;
+    background-color: #8c8884;
+
+    
+}
+
+#articulos::-webkit-scrollbar-thumb{
+
+    border-radius: 4px;
+    background-color: #bfbcb9;
+    
+}
+
+aside{
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(243, 230, 213);
+    border-radius: 40px;
+}
+
+.product{
+    background-color: rgba(128, 128, 128, 0.249);
+    width: 90%;
+    min-height: 20vh;
+    margin: 1% auto;
+
+}
