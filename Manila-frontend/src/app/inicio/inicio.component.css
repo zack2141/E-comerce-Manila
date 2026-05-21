@@ -45,6 +45,15 @@ section{
     width: 40vh !important;
 }
 
+#bienvenida{
+    min-height: 60vh;
+}
+
+#c-titulo{
+    width: 100%;
+    min-height: 60vh;
+}
+
 #titulo{
     
     width: 0;
